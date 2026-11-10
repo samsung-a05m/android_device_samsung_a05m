@@ -1,0 +1,5 @@
+cc_library_shared {
+    name: "libion_ulit",
+    srcs: ["ion_ulit.c"],
+    vendor: true,
+}
