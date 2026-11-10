@@ -1998,5 +1998,3 @@ vendor/lib64/libwifinvramdata.so
 vendor/lib64/libforkexecwrap.so
 vendor/lib64/libifcutils_mtk.so
 vendor/lib64/vendor.mediatek.hardware.clientapi-V1-ndk.so
-vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
-vendor/lib64/vendor.mediatek.hardware.netdagent-V1-ndk.so
