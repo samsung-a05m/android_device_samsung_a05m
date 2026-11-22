@@ -318,6 +318,7 @@ PRODUCT_CFI_INCLUDE_PATHS += hardware/mediatek/wlan/wpa_supplicant_8_lib
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     hostapd \
+    wlan_assistant \
     wpa_supplicant
 
 PRODUCT_COPY_FILES += \

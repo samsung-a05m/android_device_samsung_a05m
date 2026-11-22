@@ -1988,10 +1988,8 @@ vendor/lib64/libgz_uree.so|488fa6c428ad8facdd6ece09841bc983f72a9067
 
 # Wlan
 vendor/bin/wifiver_info
-vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
-vendor/etc/init/wlan_assistant.rc
 vendor/lib64/libwifinvramdata.so
 vendor/lib64/libforkexecwrap.so
 vendor/lib64/libifcutils_mtk.so
