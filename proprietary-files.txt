@@ -63,7 +63,7 @@ vendor/lib64/hw/android.hardware.soundtrigger3-impl.so|74d3daf5b676861ea9e2f537f
 vendor/lib64/hw/sound_trigger.primary.default.so|0d17234bc4003d069c77e14e1ff9f275ae602ec3
 vendor/lib64/android.hardware.audio.core-impl-mediatek.so|ff5b834edc3416760f484848c50d725afd8fad3d
 vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so|cefb9d92bb45c28c88006a7cf907500278f395e7
-vendor/lib64/libaudio_aidl_conversion_common_ndk.so:vendor/lib64/libaudio_aidl_conversion_common_ndk_prebuilt.so|3f7221e8ef2a2db8a3882550b8aaa3264edc4369
+vendor/lib64/libaudio_aidl_conversion_common_ndk.so:vendor/lib64/libaudio_aidl_conversion_common_ndk_prebuilt.so;DISABLE_DEPS;FIX_SONAME
 vendor/lib64/libaudiopolicyconfigxml_mtk_vendor.so|34b7d1b9bbc5208243f853bf4f28f917ee914b96
 
 # Audio Configs
@@ -1241,7 +1241,6 @@ vendor/lib64/libbluetooth_mtk_pure.so
 vendor/lib64/libbluetooth_relayer.so
 vendor/lib64/libbluetoothem_mtk.so
 vendor/lib64/libbt-vendor.so
-vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so
 
 # Camera ANC
 vendor/lib64/libAncDlmk.so

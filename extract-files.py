@@ -88,11 +88,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk_prebuilt.so'),
 
     (
-        'vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so',
-    ): blob_fixup()
-        .replace_needed('android.hardware.audio.common-V3-ndk.so', 'android.hardware.audio.common-V4-ndk.so'),
-
-    (
         'vendor/lib64/hw/audio.primary.mt6768.so',
     ): blob_fixup()
         .replace_needed('android.hardware.audio.effect-V2-ndk.so', 'android.hardware.audio.effect-V3-ndk.so')
