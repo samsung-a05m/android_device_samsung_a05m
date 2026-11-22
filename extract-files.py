@@ -90,7 +90,6 @@ blob_fixups: blob_fixups_user_type = {
     (
         'vendor/lib64/hw/audio.primary.mt6768.so',
     ): blob_fixup()
-        .replace_needed('android.hardware.audio.effect-V2-ndk.so', 'android.hardware.audio.effect-V3-ndk.so')
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
 
     (
