@@ -47,6 +47,7 @@ vendor/lib64/librt_extamp_intf.so
 vendor/lib64/libsdrparser.so
 vendor/lib64/libspeech_enh_lib.so;FIX_SONAME
 vendor/lib64/libspeechparser_vendor.so
+vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 
 # Audio Service AIDL - from lamu_g-user 15 VVTA35.51-137 7eabca release-keys
 vendor/bin/hw/android.hardware.audio.service-aidl.mediatek|c390518a7e74496b25b887c1e0d342676d5ae23f
