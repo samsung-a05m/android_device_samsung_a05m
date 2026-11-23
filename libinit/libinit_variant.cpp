@@ -43,11 +43,15 @@ static const variant_info_t a055m_info = {
 
 static const std::vector<std::string> property_partitions = {
     "",
+    "bootimage.",
     "odm.",
+    "odm_dlkm.",
     "product.",
     "system.",
+    "system_dlkm.",
     "system_ext.",
     "vendor.",
+    "vendor_dlkm.",
 };
 
 void set_variant_props(const variant_info_t& info) {
