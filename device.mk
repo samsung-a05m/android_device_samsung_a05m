@@ -91,7 +91,7 @@ PRODUCT_PACKAGES += \
 
 # DTB
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/dtb.img:$(TARGET_OUT)/dtb.img
+    $(DEVICE_PATH)/prebuilts/dtb.img:$(TARGET_OUT)/dtb.img
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -259,8 +259,8 @@ PRODUCT_PACKAGES += \
     init.recovery.samsung.rc 
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
-    $(LOCAL_PATH)/rootdir/etc/init.insmod.mt6768.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6768.cfg
+    $(DEVICE_PATH)/rootdir/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
+    $(DEVICE_PATH)/rootdir/etc/init.insmod.mt6768.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6768.cfg
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -274,7 +274,7 @@ PRODUCT_SHIPPING_API_LEVEL := 34
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
+    $(DEVICE_PATH) \
     hardware/google/pixel/power-libperfmgr \
     hardware/google/interfaces \
     hardware/google/pixel/pixelstats \
